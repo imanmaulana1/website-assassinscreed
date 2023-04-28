@@ -1,0 +1,29 @@
+.btnRed {
+  background-color: rgb(176, 0, 0) !important;
+  border: none !important;
+}
+
+.text {
+  font-size: 14px;
+}
+
+.textDanger {
+  color: rgba(176, 0, 0, 0.785) !important;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  letter-spacing: 10px !important;
+}
+
+.contentWrapper {
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 991px) {
+  .description{
+    order: 2
+  }
+
+  .video{
+    order: 1;
+  }
+}

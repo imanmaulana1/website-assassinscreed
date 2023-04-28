@@ -1,0 +1,15 @@
+.feature {
+  padding-top: 8%;
+}
+
+@media screen and (max-width: 991px) {
+  .feature {
+    padding-top: 15%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feature {
+    padding-top: 25%;
+  }
+}

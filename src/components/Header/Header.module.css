@@ -1,0 +1,46 @@
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("../../assets/images/codename.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.titleHero {
+  color: rgb(222, 222, 222);
+  text-transform: uppercase;
+}
+
+.dash {
+  border: 2px solid #fff;
+}
+
+.subTitle {
+  color: rgba(176, 0, 0, 0.785);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.boxWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.comingsoonWrapper {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.621);
+  border-radius: 10px;
+  width: 100%;
+}
+
+.text {
+  font-size: 50px;
+  color: darkred;
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .text {
+    font-size: 30px;
+  }
+}

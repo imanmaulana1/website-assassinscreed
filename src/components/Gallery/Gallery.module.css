@@ -1,0 +1,25 @@
+.image {
+  width: 300px;
+  border: 1px solid #dadada;
+  margin: auto;
+}
+
+.container {
+  border: 2px solid orange;
+}
+
+.games {
+  padding-top: 8%;
+}
+
+@media screen and (max-width: 991px) {
+  .games {
+    padding-top: 15%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .games {
+    padding-top: 25%;
+  }
+}

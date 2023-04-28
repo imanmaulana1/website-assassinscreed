@@ -1,0 +1,18 @@
+.faq {
+  padding-top: 8%;
+  padding-bottom: 2%;
+}
+
+
+
+@media screen and (max-width: 991px) {
+  .faq {
+    padding-top: 15%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .faq {
+    padding-top: 25%;
+  }
+}
